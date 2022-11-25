@@ -27,65 +27,10 @@ body {
 .desk_menu {
   display: none;
 }
-
-/* .closeMenu {
-    position: absolute;
-  }
-
-  /* mobile menu css
-  .show {
-    display: block;
-    width: 100%;
-  }
-
-  .hidden {
-    display: none;
-  }
-
-  .ul_list {
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    width: 100%;
-    padding: 1rem;
-    text-decoration: none;
-    height: 320vh;
-    background-color: black;
-    z-index: 5;
-    position: fixed;
-  }
-
-  .ul_list .desk_menu_list {
-    list-style: none;
-    font-size: 30px;
-    text-align: center;
-    font-weight: 600;
-    margin-top: 55px;
-  }
-
-  .ul_list .desk_menu_list a {
-    color: white;
-  }
-
-  .expand {
-    height: 100vh;
-    margin: 0;
-    padding: 2.5rem 0.8rem;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-  }
-
-  .close_show {
-    position: absolute;
-    font-size: 41px;
-    font-weight: 600;
-    color: hsl(0, 0%, 83%);
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-  } */
+ 
+.second_nav {
+   position: relative;
+}
 
 .hamburger {
   padding: 20px;
@@ -98,16 +43,19 @@ body {
   color: #fff;
   padding: 20px;
   font-size: 25px;
-  background-color: red;
+  position: absolute;
+
 }
 
 .menu-icon {
+  position: relative;
   z-index: 100;
-  top: 1rem;
-  right: 1rem;
-  padding: 0;
   border: #fff;
   cursor: pointer;
+}
+
+.menu-icon a {
+  text-decoration: none;
 }
 
 .menu {
@@ -180,6 +128,92 @@ body {
   color: black;
   width: 100%;
   padding-left: 14px;
+}
+ /*Program section*/
+ 
+.pro_main {
+  display: flex;
+  background-image: url(./images/card.png);
+  flex-direction: column;
+  justify-content: center;
+  background-repeat: repeat;
+  padding: 20px;
+  gap: 20px;
+}
+
+.main_pro {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.heading {
+  font-size: 20px;
+  color: whitesmoke;
+  font-weight: 900;
+  text-align: center;
+}
+
+.main_hr {
+  width: 24%;
+  height: 0;
+  color: hsl(6, 82%, 59%);
+  border: 1px solid;
+  margin-left: 39%;
+  margin-top: 9px;
+}
+
+.programs {
+  background: hsl(222, 11%, 17%);
+  opacity: 0.8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.pro_img1 {
+  height: 50px;
+}
+
+.pro_head {
+  font-size: 25px;
+  font-family: sans-serif 'Lato';
+  color: hsl(6, 82%, 59%);
+}
+
+.pro_para {
+  font-size: 20px;
+  width: 87%;
+  color: #ffff;
+}
+
+.btn_10 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reserve_sport {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reserve_btn {
+  background-color: hsl(6, 82%, 59%);
+  color: #fff;
+  padding: 20px;
+  border: 0;
+  width: 221px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 47px;
+}
+
+.reserve_btn1 {
+  display: none;
 }
 
 /* main page media queries */
@@ -271,6 +305,10 @@ body {
     padding-left: 142px;
     gap: 2px;
   }
+  
+  .sec_heading {
+    font-size:xx-large;
+  }
 
   .first_para {
     width: 60%;
@@ -280,4 +318,74 @@ body {
   .menu {
     display: none;
   }
+   /*Program section*/
+
+   .cards_desk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+  }
+
+  .main_pro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .main_hr {
+    width: 6%;
+    margin-left: 9px;
+    align-self: center;
+  }
+
+  .programs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    border: 2px solid #d3d3d3;
+    border-radius: 5px;
+  }
+
+  .programs:hover {
+    transform: scale(1.3);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    border: 1px solid #ec5242;
+    border-radius: 5px;
+  }
+
+  .pro_img1 {
+    width: 106px;
+    height: 95px;
+  }
+
+  .reseve-sport {
+    display: none;
+  }
+
+  .reserve_btn {
+    display: none;
+  }
+
+  .desk_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .reserve_btn1 {
+    display: flex;
+    color: #fff;
+    border-bottom: #000;
+    position: relative;
+    margin-top: -92px;
+  }
+
+
 }
