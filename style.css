@@ -27,9 +27,9 @@ body {
 .desk_menu {
   display: none;
 }
- 
+
 .second_nav {
-   position: relative;
+  position: relative;
 }
 
 .hamburger {
@@ -44,7 +44,6 @@ body {
   padding: 20px;
   font-size: 25px;
   position: absolute;
-
 }
 
 .menu-icon {
@@ -129,8 +128,9 @@ body {
   width: 100%;
   padding-left: 14px;
 }
- /*Program section*/
- 
+
+/* Program section */
+
 .pro_main {
   display: flex;
   background-image: url(./images/card.png);
@@ -179,7 +179,7 @@ body {
 
 .pro_head {
   font-size: 25px;
-  font-family: sans-serif 'Lato';
+  font-family: 'Lato', sans-serif;
   color: hsl(6, 82%, 59%);
 }
 
@@ -216,7 +216,7 @@ body {
   display: none;
 }
 
-/*speaker section*/
+/* speaker section */
 
 .speakers_section {
   display: flex;
@@ -315,6 +315,7 @@ body {
 .footer {
   display: none;
 }
+
 /* main page media queries */
 @media (min-width: 768px) {
   .main_page {
@@ -404,9 +405,9 @@ body {
     padding-left: 142px;
     gap: 2px;
   }
-  
+
   .sec_heading {
-    font-size:xx-large;
+    font-size: xx-large;
   }
 
   .first_para {
@@ -417,9 +418,10 @@ body {
   .menu {
     display: none;
   }
-   /*Program section*/
 
-   .cards_desk {
+  /* Program section */
+
+  .cards_desk {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -502,7 +504,7 @@ body {
     margin-top: 40px;
     width: 98%;
     padding: 96px;
-}
+  }
 
   .about_ptn {
     display: flex;
@@ -592,6 +594,3 @@ body {
     font-family: 'Lato', sans-serif;
   }
 }
-
-
-
