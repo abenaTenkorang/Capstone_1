@@ -537,6 +537,11 @@ body {
     margin-top: 21px;
   }
 
+  .spk_hr {
+    margin-left: 45%;
+    width: 6%;
+  }
+
   .image_p {
     display: flex;
     justify-content: center;
