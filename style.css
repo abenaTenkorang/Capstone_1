@@ -127,9 +127,10 @@ body {
 .first_para {
   font-size: 15px;
   line-height: 25px;
-  color: black;
+  color: #272a31;;
   width: 100%;
   padding-left: 14px;
+  background-color: rgb(183, 187, 192, 0.4);
 }
 
 .dates {
