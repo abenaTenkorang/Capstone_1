@@ -437,7 +437,8 @@ body {
   }
 
   .sec_heading {
-    font-size: xx-large;
+    font-size: 5rem;
+    width: 50%;
   }
 
   .first_para {
