@@ -105,7 +105,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: red;
+  color:  hsl(6, 82%, 59%);
   padding: 19px;
   width: 100%;
 }
@@ -121,7 +121,7 @@ body {
   width: 100%;
   font-weight: 900;
   font-family: 'Lato', sans-serif;
-  color: red;
+  color:  hsl(6, 82%, 59%);
   margin: 25px 0 30px 0;
 }
 
