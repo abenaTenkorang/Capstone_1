@@ -48,7 +48,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://abenaTenkorang.github.io/Capstone1/)
+- [Live Demo Link]( https://abenatenkorang.github.io/Capstone_1/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -75,7 +75,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/shegy28/Fashion-week.git
+  git clone https://github.com/abenaTenkorang/Capstone_1.git
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- AUTHORS -->
