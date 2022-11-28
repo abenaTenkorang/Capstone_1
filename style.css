@@ -570,14 +570,14 @@ body {
     padding-top: 30px;
   }
 
-  .partner_hr {
+  .partners_hr {
     height: 0;
     color: #ec5242;
     border: 1px solid;
     width: 6%;
     margin-left: 9px;
     align-self: center;
-    margin-top: 21px;
+    margin-top: 15px;
   }
 
   .spk_hr {
