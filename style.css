@@ -600,7 +600,7 @@ body {
   }
 
   .footer {
-    background-color: #d3d3d3;
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;

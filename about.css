@@ -17,7 +17,7 @@ body {
   background-position: center;
   width: 100%;
   padding-bottom: 50px;
-  height: 90vh;
+  height: 80vh;
 }
 
 .desk_nav {
@@ -350,7 +350,7 @@ body {
   .about_page {
     width: 100%;
     padding-bottom: 50px;
-    height: 100vh;
+    height: 85vh;
   }
 
   .mainMenu {
@@ -438,7 +438,7 @@ body {
 
   .hero1 {
     align-items: center;
-    padding-left: 208px;
+    padding-left: 150px;
   }
 
   .heading {
@@ -451,11 +451,11 @@ body {
   }
 
   .about_d {
-    padding-left: 5rem;
+    padding-left: 19rem;
   }
 
   .first_para1 {
-    width: 82%;
+    width: 70%;
     padding: 30px;
     background-color: aliceblue;
   }
