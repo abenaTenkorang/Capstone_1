@@ -364,11 +364,6 @@
     .mainMenu {
       display: none;
     }
-
-    .opening_header {
-      position: fixed;
-      width: 100%;
-    }
   
     .desk_nav {
       display: flex;
