@@ -31,9 +31,10 @@ body {
 .second_nav {
   position: relative;
 }
- .nav-web {
+
+.nav-web {
   display: none;
- }
+}
 
 .hamburger {
   padding: 20px;
@@ -127,7 +128,7 @@ body {
 .first_para {
   font-size: 15px;
   line-height: 25px;
-  color: #272a31;;
+  color: #272a31;
   width: 100%;
   padding-left: 14px;
   background-color: rgb(183, 187, 192, 0.4);
@@ -434,6 +435,7 @@ body {
     padding-top: 158px;
     padding-left: 142px;
     gap: 2px;
+    height: 100vh;
   }
 
   .sec_heading {

@@ -1,348 +1,349 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
-  }
-  
-  html,
-  body {
-    width: 100%;
-  }
-  
-  .about_page {
-    background-image: url(./images/hero.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    padding-bottom: 50px;
-    height: 90vh;
-  }
-  
-  .desk_nav {
-    display: none;
-  }
-  
-  .desk_menu {
-    display: none;
-  }
-  
-  .second_nav {
-    position: relative;
-  }
-   .nav-web {
-    display: none;
-   }
-  
-  .hamburger {
-    padding: 20px;
-    font-size: 25px;
-    background-color: #fff;
-  }
-  
-  .close {
-    display: none;
-    color: #fff;
-    padding: 20px;
-    font-size: 25px;
-    position: absolute;
-  }
-  
-  .menu-icon {
-    position: relative;
-    z-index: 100;
-    border: #fff;
-    cursor: pointer;
-  }
-  
-  .menu-icon a {
-    text-decoration: none;
-  }
-  
-  .menu {
-    position: fixed;
-    transform: translateY(-100%);
-    transition: transform 0.2s;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 99;
-    opacity: 0.967;
-    color: grey;
-    list-style: none;
-    padding-top: 4rem;
-    padding-left: 2rem;
-    gap: 12px;
-  }
-  
-  .showMenu {
-    transform: translateY(0);
-    background-color: grey;
-  }
-  
-  .menu-item {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 35px;
-    line-height: 70px;
-    display: flex;
-    align-items: center;
-    color: #fff;
-    text-decoration: none;
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
 
-  .hero1 {
-    display: flex;
-    flex-direction: column;
-    padding: 15px;
-  }
-  
-  .heading {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: red;
-    padding: 16px 10px 3px 18px;
-    width: 100%;
-  }
-  
-  .first_head1 {
-    font-family: 'poppins', sans-serif;
-    font-size: 30px;
-    width: 97%;
-  }
-  
-  .sec_head1 {
-    font-size: 41px;
-    width: 100%;
-    font-weight: 900;
-    font-family: 'Lato', sans-serif;
-    color: red;
-    margin: 25px 0 30px 0;
-  }
-  
-  .first_para1 {
-    font-size: 15px;
-    line-height: 29px;
-    color: #272a31;;
-    width: 100%;
-    padding-left: 14px;
-    background-color: rgb(183, 187, 192, 0.4);
-  }
+html,
+body {
+  width: 100%;
+}
 
-  .about_contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-weight: 500;
-    padding-bottom: 30px;
-  }
-  
-  .contact_info {
-    font-size: 15px;
-    color: hsl(222, 11%, 17%);
-    width: 80%;
-    font-weight: 100;
-    padding-top: 24px;
-  }
-  
-  .about_email {
-    font-size: 22px;
-    color: hsl(222, 11%, 17%);
-    font-weight: 900;
-    text-decoration: underline;
-    padding-bottom: 30px;
-  }
+.about_page {
+  background-image: url(./images/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding-bottom: 50px;
+  height: 90vh;
+}
 
-  .logo_sect {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 20px;
-    gap: 20px;
-    margin: 20px;
-  }
+.desk_nav {
+  display: none;
+}
+
+.desk_menu {
+  display: none;
+}
+
+.second_nav {
+  position: relative;
+}
+
+.nav-web {
+  display: none;
+}
+
+.hamburger {
+  padding: 20px;
+  font-size: 25px;
+  background-color: #fff;
+}
+
+.close {
+  display: none;
+  color: #fff;
+  padding: 20px;
+  font-size: 25px;
+  position: absolute;
+}
+
+.menu-icon {
+  position: relative;
+  z-index: 100;
+  border: #fff;
+  cursor: pointer;
+}
+
+.menu-icon a {
+  text-decoration: none;
+}
+
+.menu {
+  position: fixed;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  opacity: 0.967;
+  color: grey;
+  list-style: none;
+  padding-top: 4rem;
+  padding-left: 2rem;
+  gap: 12px;
+}
+
+.showMenu {
+  transform: translateY(0);
+  background-color: grey;
+}
+
+.menu-item {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 70px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero1 {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: red;
+  padding: 16px 10px 3px 18px;
+  width: 100%;
+}
+
+.first_head1 {
+  font-family: 'poppins', sans-serif;
+  font-size: 30px;
+  width: 97%;
+}
+
+.sec_head1 {
+  font-size: 41px;
+  width: 100%;
+  font-weight: 900;
+  font-family: 'Lato', sans-serif;
+  color: red;
+  margin: 25px 0 30px 0;
+}
+
+.first_para1 {
+  font-size: 15px;
+  line-height: 29px;
+  color: #272a31;
+  width: 100%;
+  padding-left: 14px;
+  background-color: rgb(183, 187, 192, 0.4);
+}
+
+.about_contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+
+.contact_info {
+  font-size: 15px;
+  color: hsl(222, 11%, 17%);
+  width: 80%;
+  font-weight: 100;
+  padding-top: 24px;
+}
+
+.about_email {
+  font-size: 22px;
+  color: hsl(222, 11%, 17%);
+  font-weight: 900;
+  text-decoration: underline;
+  padding-bottom: 30px;
+}
+
+.logo_sect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+  margin: 20px;
+}
 
 
-  
-  .main_about {
-    display: flex;
-    flex-direction: column;
-    padding-top: 30px;
-  }
-  
-  .pro_head {
-    font-size: 30px;
-    color: #000;
-    font-weight: 900;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-  }
-  
-  .about_hr {
-    width: 24%;
-    height: 0;
-    color: hsl(6, 82%, 59%);
-    border: 1px solid;
-    margin-left: 39%;
-    margin-top: 9px;
-  }
-  
-  .logo_description {
-    font-size: 15px;
-    font-family: 'Lato', sans-serif;
-    line-height: 29px;
-    color: darkgrey;
-    font-weight: 900;
-    width: 80%;
-  }
-  
-  .conference_img {
-    
-    width: inherit;
-    border: 1px solid hsl(0, 0%, 83%);
-  }
-  
-  .logo {
-    width: 100%;
-    padding: 10px 0 10px 19px;
-  }
-  
-  .history {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 20px;
-  }
-  
-  .main_history {
-    display: flex;
-    flex-direction: column;
-    padding-top: 30px;
-  }
-  
-  .head_history {
-    font-size: 30px;
-    color: #000;
-    font-weight: 900;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-  }
-  
-  .history_hr {
-    width: 24%;
-    height: 0;
-    color: hsl(6, 82%, 59%);
-    border: 1px solid;
-    margin-left: 39%;
-  }
-  
-  .history_description {
-    font-size: 14px;
-    line-height: 29px;
-    color:darkgrey;
-    font-weight: 900;
-    font-family: 'Lato', sans-serif;
-    width: 70%;
-  }
-  
-  .history_img_div {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .img_h {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 20px;
-    gap: 20px;
-  }
-  
-  .hist_img {
-    width: 328px;
-  }
-  
-  .h_para {
-    font-size: 27px;
-    line-height: 29px;
-    color: #fff;
-    font-weight: 800;
-    font-family: 'Lato', sans-serif;
-    width: 68%;
-    margin-top: -143px;
-    text-align: center;
-  }
-  
-  .year_hist {
-    display: block;
-    text-align: center;
-  }
+.main_about {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
 
-  .about_ptn {
-    background-color: hsl(222, 11%, 17%);
-   }
-  .main_ptn {
-    font-size: 30px;
-    color: #fff;
-    font-weight: 900;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-  }
-  
-  .partners_hr {
-    width: 24%;
-    height: 0;
-    color: hsl(6, 82%, 59%);
-    border: 1px solid;
-    margin-left: 39%;
-    margin-top: 9px;
-    margin-bottom: 30px;
-  }
-  
-  .image_p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  
-  .ptn_img {
-    width: 137px;
-    height: 75px;
-  } 
+.pro_head {
+  font-size: 30px;
+  color: #000;
+  font-weight: 900;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
 
-  .footer {
-    background-color: #fff;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    gap: 24px;
-    margin-top: 68px;
-    padding: 20px;
-  } 
+.about_hr {
+  width: 24%;
+  height: 0;
+  color: hsl(6, 82%, 59%);
+  border: 1px solid;
+  margin-left: 39%;
+  margin-top: 9px;
+}
 
-  .logo_f {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.logo_description {
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+  line-height: 29px;
+  color: darkgrey;
+  font-weight: 900;
+  width: 80%;
+}
+
+.conference_img {
+  width: inherit;
+  border: 1px solid hsl(0, 0%, 83%);
+}
+
+.logo {
+  width: 100%;
+  padding: 10px 0 10px 19px;
+}
+
+.history {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.main_history {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.head_history {
+  font-size: 30px;
+  color: #000;
+  font-weight: 900;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.history_hr {
+  width: 24%;
+  height: 0;
+  color: hsl(6, 82%, 59%);
+  border: 1px solid;
+  margin-left: 39%;
+}
+
+.history_description {
+  font-size: 14px;
+  line-height: 29px;
+  color: darkgrey;
+  font-weight: 900;
+  font-family: 'Lato', sans-serif;
+  width: 70%;
+}
+
+.history_img_div {
+  display: flex;
+  justify-content: center;
+}
+
+.img_h {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+  gap: 20px;
+}
+
+.hist_img {
+  width: 328px;
+}
+
+.h_para {
+  font-size: 27px;
+  line-height: 29px;
+  color: #fff;
+  font-weight: 800;
+  font-family: 'Lato', sans-serif;
+  width: 68%;
+  margin-top: -143px;
+  text-align: center;
+}
+
+.year_hist {
+  display: block;
+  text-align: center;
+}
+
+.about_ptn {
+  background-color: hsl(222, 11%, 17%);
+}
+
+.main_ptn {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 900;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.partners_hr {
+  width: 24%;
+  height: 0;
+  color: hsl(6, 82%, 59%);
+  border: 1px solid;
+  margin-left: 39%;
+  margin-top: 9px;
+  margin-bottom: 30px;
+}
+
+.image_p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.ptn_img {
+  width: 137px;
+  height: 75px;
+}
+
+.footer {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  gap: 24px;
+  margin-top: 68px;
+  padding: 20px;
+}
+
+.logo_f {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .f_img {
   width: 50px;
   height: 50px;
 }
+
 .rights {
   color: hsl(222, 11%, 17%);
   font-size: 12px;
@@ -353,211 +354,211 @@
 .p_rights {
   display: none;
 }
- 
-  @media (min-width: 768px) {
-    .about_page {
-      width: 100%;
-      padding-bottom: 50px;
-      height: 100vh;
-    }
-  
-    .mainMenu {
-      display: none;
-    }
-  
-    .desk_nav {
-      display: flex;
-      justify-content: end;
-      align-items: center;
-      gap: 20px;
-      background-color: hsl(222, 11%, 17%);
-      height: 50px;
-      text-decoration: none;
-      list-style: none;
-      padding-right: 170px;
-    }
-  
-    .desk_menu_list1 a {
-      color: #fff;
-      text-decoration: none;
-      font-size: 12px;
-    }
-  
-    li.hidden {
-      display: flex;
-    }
-  
-    .second_nav {
-      display: flex;
-      justify-content: end;
-      align-items: center;
-      gap: 20px;
-      padding-right: 150px;
-      background-color: #fff;
-      height: 50px;
-      text-decoration: none;
-      list-style: none;
-    }
-  
-    .desk_menu {
-      display: flex;
-      justify-content: end;
-      align-items: center;
-      gap: 48px;
-      height: 40px;
-      list-style: none;
-    }
-  
-    .desk_menu_list a {
-      color: #000;
-      text-decoration: none;
-      font-size: 16px;
-      font-weight: 600;
-    }
-  
-    .about_red a {
-      color: #ec5242;
-    }
-  
-    .border_item {
-      border: 2px solid #ec5242;
-      padding: 10px;
-    }
-  
-    .border_item a {
-      color: #ec5242;
-    }
-  
-    .hamburger {
-      display: none;
-    }
-  
-    .nav-web {
-      display: flex;
-      width: 50px;
-      height: 40px;
-      margin-right: 400px;
-    }
 
-    .campaign {
-        border: 2px solid hsl(6, 82%, 59%);
-        padding: 5px; 
-    }
+@media (min-width: 768px) {
+  .about_page {
+    width: 100%;
+    padding-bottom: 50px;
+    height: 100vh;
+  }
 
-    .hero1 {
-        align-items: center;
-        padding-left: 208px;
-      }
-    
-      .heading {
-        display: none;
-      }
-    
-      .sec_head1 {
-        font-size: 3rem;
-        width: 50%;
-      }
+  .mainMenu {
+    display: none;
+  }
 
-      .about_d {
-        padding-left: 5rem;
-      }
-    
-      .first_para1 {
-        width: 82%;
-        padding: 30px;
-        background-color:aliceblue;
-      }
+  .desk_nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    background-color: hsl(222, 11%, 17%);
+    height: 50px;
+    text-decoration: none;
+    list-style: none;
+    padding-right: 170px;
+  }
 
-      .contact_info {
-        width: 100%;
-      }
+  .desk_menu_list1 a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+  }
 
-      .logo_description{
-        padding-left: 10rem;
-      }
+  li.hidden {
+    display: flex;
+  }
 
-      .img_h {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        width: 100%;
-        height: 50%;
-        margin-top: 40px;
-        gap: 41px;
-    }
+  .second_nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    padding-right: 150px;
+    background-color: #fff;
+    height: 50px;
+    text-decoration: none;
+    list-style: none;
+  }
 
-    .hist_img {
-      width: 40%;
-      height: 350px;
-     }
+  .desk_menu {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 48px;
+    height: 40px;
+    list-style: none;
+  }
 
-     .h_para {
-      margin-left: -555px;
-      width: 35%;
-      margin-top: 175px;
-      /*position: absolute;*/
-    }
+  .desk_menu_list a {
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+  }
 
-    .history_description {
-      margin-left: 25rem;
-    }
+  .about_red a {
+    color: #ec5242;
+  }
 
-    
-      
+  .border_item {
+    border: 2px solid #ec5242;
+    padding: 10px;
+  }
 
-      .about_ptn {
-        display: none;
-      }
+  .border_item a {
+    color: #ec5242;
+  }
 
-      .image_p {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 40px;
-        margin-top: 31px;
-      }
-    
-      .ptn_img {
-        width: 120px;
-        height: 97px;
-      }
-    
-      .footer {
-        background-color: #d3d3d3;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        height: 200px;
-        gap: 140px;
-        padding: 30px;
-      }
+  .hamburger {
+    display: none;
+  }
 
-      .logo_f {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-      }
-    
-      .f_img {
-        width: 150px;
-        height: 115px;
-      }
-    
-      .rights {
-        color: #272a31;
-        font-size: 18px;
-        font-weight: 600;
-        font-family: 'Lato', sans-serif;
-      }
-    
-      .p_rights {
-        color: #272a31;
-        font-size: 18px;
-        font-family: 'Lato', sans-serif;
-      }
-    
+  .nav-web {
+    display: flex;
+    width: 50px;
+    height: 40px;
+    margin-right: 400px;
+  }
+
+  .campaign {
+    border: 2px solid hsl(6, 82%, 59%);
+    padding: 5px;
+  }
+
+  .hero1 {
+    align-items: center;
+    padding-left: 208px;
+  }
+
+  .heading {
+    display: none;
+  }
+
+  .sec_head1 {
+    font-size: 3rem;
+    width: 50%;
+  }
+
+  .about_d {
+    padding-left: 5rem;
+  }
+
+  .first_para1 {
+    width: 82%;
+    padding: 30px;
+    background-color: aliceblue;
+  }
+
+  .contact_info {
+    width: 100%;
+  }
+
+  .logo_description {
+    padding-left: 10rem;
+  }
+
+  .img_h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    margin-top: 40px;
+    gap: 41px;
+  }
+
+  .hist_img {
+    width: 40%;
+    height: 350px;
+  }
+
+  .h_para {
+    margin-left: -555px;
+    width: 35%;
+    margin-top: 175px;
+
+    /* position: absolute; */
+  }
+
+  .history_description {
+    margin-left: 25rem;
+  }
+
+
+
+
+  .about_ptn {
+    display: none;
+  }
+
+  .image_p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 31px;
+  }
+
+  .ptn_img {
+    width: 120px;
+    height: 97px;
+  }
+
+  .footer {
+    background-color: #d3d3d3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    gap: 140px;
+    padding: 30px;
+  }
+
+  .logo_f {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .f_img {
+    width: 150px;
+    height: 115px;
+  }
+
+  .rights {
+    color: #272a31;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .p_rights {
+    color: #272a31;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+  }
 }
