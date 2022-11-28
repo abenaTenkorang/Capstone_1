@@ -13,23 +13,17 @@
 
 <details>
   <summary>HTML</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
+  
 </details>
 
 <details>
   <summary>CSS</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
+  
 </details>
 
 <details>
 <summary>JAVASCRIPT</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
+ 
 </details>
 
 <!-- Features -->
