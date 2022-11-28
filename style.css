@@ -194,21 +194,24 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  gap: 20px;
+  gap: 15px;
+  width: 22rem;
+  margin: 6px 26px 0 -7px;
 }
 
 .pro_img1 {
-  height: 50px;
+  height: 33px;
 }
 
 .pro_head {
-  font-size: 25px;
+  font-size: 15px;
   font-family: 'Lato', sans-serif;
   color: hsl(6, 82%, 59%);
 }
 
+
 .pro_para {
-  font-size: 20px;
+  font-size: 15px;
   width: 87%;
   color: #ffff;
 }
@@ -489,6 +492,7 @@ body {
     margin-left: 10px;
     border: 2px solid #d3d3d3;
     border-radius: 5px;
+    height: 20rem;
   }
 
   .programs:hover {
