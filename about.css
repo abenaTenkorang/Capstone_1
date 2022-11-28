@@ -169,7 +169,6 @@ body {
   margin: 20px;
 }
 
-
 .main_about {
   display: flex;
   flex-direction: column;
@@ -504,9 +503,6 @@ body {
   .history_description {
     margin-left: 25rem;
   }
-
-
-
 
   .about_ptn {
     display: none;
