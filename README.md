@@ -1,7 +1,25 @@
-# Capstone_1
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+    - [Future Features](#future-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
+
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Web Development Conference] <a name="about-project"></a>
+# 📖 Web Development Conference <a name="about-project"></a>
 
 > A website that tell and shows more information about a web development conference that is held annually.
 
@@ -74,11 +92,6 @@ Clone this repository to your desired folder:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- AUTHORS -->
 
-👤 **Abigail Gyamfuaa Boateng**
-
-- GitHub: [@AbenaTenkorang](https://github.com/abenaTenkorang)
-- Twitter: [@Abi1_boateng](https://twitter.com/Abi1_boateng)
-- LinkedIn: [Abigail Boateng](https://www.linkedin.com/in/abigail-boateng-345395141/)
 
 <!-- FUTURE FEATURES -->
 
@@ -90,13 +103,31 @@ Clone this repository to your desired folder:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+ ### Deployment
+<a name="triangular_flag_on_post-deployment"></a>
+
+You can deploy this project using [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+
+## 👤 Author 
+<a name="authors"></a>
+
+👤 **Abigail Gyamfuaa Boateng**
+
+- GitHub: [@AbenaTenkorang](https://github.com/abenaTenkorang)
+- Twitter: [@Abi1_boateng](https://twitter.com/Abi1_boateng)
+- LinkedIn: [Abigail Boateng](https://www.linkedin.com/in/abigail-boateng-345395141/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
+ 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]https://github.com/abenaTenkorang/Capstone_1/issues.
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,7 +135,7 @@ Feel free to check the [issues page]https://github.com/abenaTenkorang/Capstone_1
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project please share and contribute
+If you like this project give me a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,20 +143,16 @@ If you like this project please share and contribute
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+ I would like to thank all my fellow micronauts and [Cindy Shin](https://www.behance.net/adagio07).
 
-I would like to thank  [Cindy Shin](https://www.behance.net/adagio07)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/) licensed.
+This project is [MIT](https://github.com/abenaTenkorang/Awesome-Books/blob/main/MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
