@@ -70,27 +70,32 @@
 
 To get a local copy up and running, follow these steps.
 
-### Prerequisites
 
--Code Editor:[visual Studio code](https://code.visualstudio.com/)
--Web Browser
-<!--
-Example command:
+If you dont have [node](https://node.org) install on your computer, Install node js from [https://nodejs.org/en](https://nodejs.org/en/) as your JavaScript Runtime Engine
 
-```sh
- gem install rails
-```
- -->
+If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
+
+[Download the ZIP from this location](https://github.com/abenaTenkorang/Capstone_1/archive/refs/heads/main.zip), or run the following [git](https://git-scm.com/downloads) command to clone the files to your machine:
+
+- Once the files are on your machine, open the _Capstone_1_ folder in [Visual Studio Code](https://code.visualstudio.com/), and follow the steps in Installation
+
 ### Setup
 
-Clone this repository to your desired folder:
+1. Clone this repository to your desired folder:
 
-```sh
-  cd my-folder
-  git clone https://github.com/abenaTenkorang/Capstone_1.git
-```
+    ```sh
+      git clone https://github.com/abenaTenkorang/Capston_1.git
+    ```
+
+2. Install Node Modules
+
+   ```sh
+   npm install
+   ```
+   
+3. Open the `index.html` file in the project directory with your favorite browser
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-<!-- AUTHORS -->
 
 
 <!-- FUTURE FEATURES -->
@@ -153,6 +158,6 @@ If you like this project give me a star.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/abenaTenkorang/Awesome-Books/blob/main/MIT.md) licensed.
+This project is [MIT](https://github.com/abenaTenkorang/MIT/blob/main/MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
