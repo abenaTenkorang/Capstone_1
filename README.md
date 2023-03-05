@@ -25,6 +25,7 @@
 
 **[Web Development Conference]** is a Capstone from microverse.
 
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -84,7 +85,7 @@ If you installed git you can clone the code to your machine, or download a ZIP o
 1. Clone this repository to your desired folder:
 
     ```sh
-      git clone https://github.com/abenaTenkorang/Capston_1.git
+      git clone https://github.com/abenaTenkorang/Capstone_1.git
     ```
 
 2. Install Node Modules
