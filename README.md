@@ -23,7 +23,12 @@
 
 > A website that tell and shows more information about a web development conference that is held annually.
 
-**[Web Development Conference]** is a Capstone from microverse.
+## Browser display
+
+
+https://user-images.githubusercontent.com/109290913/232234935-63eca952-56a4-47ff-a12c-e3a50f60ef1a.mp4
+
+
 
 
 ## 🛠 Built With <a name="built-with"></a>
