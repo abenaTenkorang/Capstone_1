@@ -64,6 +64,9 @@ https://user-images.githubusercontent.com/109290913/232234935-63eca952-56a4-47ff
 
   Develop other pages: 
   - Add more pages to complete the project.
+  - [ ] **A ticket Booking page**
+  - [ ] **A gallery page**
+  - [ ] **Competition page**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -112,15 +115,6 @@ If you installed git you can clone the code to your machine, or download a ZIP o
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **A ticket Booking page**
-- [ ] **A gallery page**
-- [ ] **Competition page**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
  ### Deployment
 <a name="triangular_flag_on_post-deployment"></a>
