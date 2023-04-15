@@ -335,7 +335,10 @@ body {
 }
 
 .about_ptn {
-  display: none;
+  display: flex;
+    flex-direction: row;
+    background-color: #272a31;
+    height: 200px;
 }
 
 .footer {
