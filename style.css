@@ -129,11 +129,12 @@ img {
 
 .first_para {
   font-size: 15px;
-  line-height: 25px;
+  line-height: 35px;
   color: #272a31;
   width: 100%;
   padding-left: 14px;
   background-color: rgb(183, 187, 192, 0.4);
+  word-spacing: 2px;
 }
 
 .dates {
