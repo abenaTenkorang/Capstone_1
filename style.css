@@ -94,7 +94,9 @@ body {
   text-decoration: none;
 }
 
-/* hero-sectio */
+img {
+  width: 100%;
+}
 
 .hero {
   display: flex;
@@ -200,7 +202,7 @@ body {
 }
 
 .pro_img1 {
-  height: 33px;
+  height: 100px;
 }
 
 .pro_head {
@@ -334,14 +336,45 @@ body {
   padding-bottom: 2px;
 }
 
-.about_ptn {
-  display: none;
-}
-
 .footer {
   display: none;
 }
 
+@media (max-width: 768px) {
+  .about_ptn {
+    display: flex;
+    flex-direction: column;
+    background-color: #272a31;
+}
+
+  .head_ptn {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 50px;
+    color: seashell;
+  }
+  
+  .image_p {
+    display: grid;
+    text-align: center;
+    margin: auto auto;
+    width: 60%;
+    grid-gap: 30px;
+    grid-template-columns: 1fr;
+    align-items: baseline;
+    cursor: pointer;
+    padding: 50px 0 50px 0;
+  }
+  
+  .partners_hr {
+    width: 7%;
+    height: 1px;
+    margin: 30px auto;
+    background-color: var(--secondary-color);
+    border-radius: 3px;
+  }
+}
+   
 /* main page media queries */
 @media (min-width: 768px) {
   .main_page {
