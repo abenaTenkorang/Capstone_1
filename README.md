@@ -75,7 +75,6 @@ https://user-images.githubusercontent.com/109290913/232234935-63eca952-56a4-47ff
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 
 - [Live Demo Link]( https://abenatenkorang.github.io/Capstone_1/)
 
